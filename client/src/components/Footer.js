@@ -2,18 +2,17 @@ const Footer = () => {
   return (
     <div className="footerContainer">
       <div className="footerItem">
-        <img src="drink.jpeg" alt="drink" objectFit="cover" layout="fill"></img>
+        <img className="footerImage"src="drink.jpeg" alt="drink" objectFit="cover" layout="fill"></img>
       </div>
       <div className="footerItem">
         <div className="footerCard">
           <h2 className="footerMotto">
-            1st Alkaline Cafe 
+            1st Alkaline Cafe
           </h2>
         </div>
         <div className="footerCard">
           <h1 className="footerTitle">OUR RESTAURANT</h1>
-          <p className="footerText">
-            2821 N 24th St.
+          <p className="footerText">2821 N 24th St.
             <br /> Phoenix, AZ 85008
             <br /> (470)-869-7559
           </p>
