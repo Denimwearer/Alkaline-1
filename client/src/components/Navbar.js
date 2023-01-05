@@ -15,7 +15,6 @@ const Navbar = () => {
           <a href="/">
             <li className="listItem">Homepage</li>
           </a>
-          <li className="listItem">Products</li>
           <li className="listItem">Menu</li>
           <img className="logo" src="Alkaline-1.jpg" alt="logo"></img>
           <li className="listItem">About</li>

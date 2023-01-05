@@ -120,3 +120,61 @@ a {
     flex: 3;
   }
 }
+
+.footerContainer {
+  height: calc(100vh - 100px);
+  background-color: #222;
+  display: flex;
+}
+
+.footerItem {
+  flex: 1;
+  position: relative;
+  display: flex;
+}
+
+.footerItem:last-child {
+  flex: 2;
+  padding: 50px;
+  justify-content: space-between;
+}
+
+.footerCard {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.footerTitle {
+  font-size: 18px;
+  color: #b7903c;
+}
+
+.footerText {
+  color: lightgray;
+}
+
+.footerMotto {
+  color: rgb(211, 211, 211);
+}
+
+@media screen and (max-width: 480px) {
+  .footerContainer {
+    height: auto;
+    footerText-align: center;
+  }
+  .footerItem:first-child {
+    display: none;
+  }
+
+  .footerItem {
+    flex-direction: column;
+  }
+
+  .footerTitle {
+    font-size: 30px;
+  }
+
+  .footerText {
+    font-size: 20px;
+  }
+}
