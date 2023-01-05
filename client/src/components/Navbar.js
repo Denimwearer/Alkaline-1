@@ -1,31 +1,33 @@
+import styles from "../styles/Navbar.module.css";
+
 const Navbar = () => {
   return (
-    <div className="container">
-      <div className="item">
-        <div className="callButton">
-          <img className="telephone" src="telephone.png" alt="telephone"></img>
+    <div className={styles.container}>
+      <div className={styles.item}>
+        <div className={styles.callButton}>
+          <img className={styles.telephone} src="telephone.png" alt="telephone"></img>
         </div>
-        <div className="texts">
-          <div className="text">ORDER NOW!</div>
-          <div className="text">470 869 7559</div>
+        <div className={styles.texts}>
+          <div className={styles.text}>ORDER NOW!</div>
+          <div className={styles.text}>470 869 7559</div>
         </div>
       </div>
-      <div className="item">
-        <ul className="list">
+      <div className={styles.item}>
+        <ul className={styles.list}>
           <a href="/">
-            <li className="listItem">Homepage</li>
+            <li className={styles.listItem}>Homepage</li>
           </a>
-          <li className="listItem">Menu</li>
-          <img className="logo" src="Alkaline-1.jpg" alt="logo"></img>
-          <li className="listItem">About</li>
-          <li className="listItem">Contact</li>
+          <li className={styles.listItem}>Menu</li>
+          <img className={styles.logo} src="Alkaline-1.jpg" alt="logo"></img>
+          <li className={styles.listItem}>About</li>
+          <li className={styles.listItem}>Contact</li>
         </ul>
       </div>
       <a href="/cart">
-        <div className="item">
-          <div className="cart">
-            <img className="cart"src="cart.png" alt="cart"></img>
-            <div className="counter"></div>
+        <div className={styles.item}>
+          <div className={styles.cart}>
+            <img className={styles.cart}src="cart.png" alt={styles.cart}></img>
+            <div className={styles.counter}></div>
           </div>
         </div>
       </a>
