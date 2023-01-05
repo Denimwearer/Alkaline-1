@@ -21,6 +21,11 @@ a {
   object-fit: cover;
 }
 
+.telephone {
+  width: 32px;
+  height: 32px;
+}
+
 .container {
   height: 100px;
   padding: 0px 50px;

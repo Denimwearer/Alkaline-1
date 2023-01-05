@@ -1,14 +1,9 @@
-
-
-
-
-
 const Navbar = () => {
   return (
     <div className="container">
       <div className="item">
         <div className="callButton">
-          <img src="telephone.png" alt="telephone"></img>
+          <img className="telephone" src="telephone.png" alt="telephone"></img>
         </div>
         <div className="texts">
           <div className="text">ORDER NOW!</div>
@@ -23,15 +18,14 @@ const Navbar = () => {
           <li className="listItem">Products</li>
           <li className="listItem">Menu</li>
           <img className="logo" src="Alkaline-1.jpg" alt="logo"></img>
-          <li className="listItem">Events</li>
-          <li className="listItem">Blog</li>
+          <li className="listItem">About</li>
           <li className="listItem">Contact</li>
         </ul>
       </div>
       <a href="/cart">
         <div className="item">
           <div className="cart">
-            <img src="cart.png" alt="cart"></img>
+            <img className="cart"src="cart.png" alt="cart"></img>
             <div className="counter"></div>
           </div>
         </div>
